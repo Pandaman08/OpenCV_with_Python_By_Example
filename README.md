@@ -16,7 +16,7 @@ Basado en el **Capítulo 3** del libro *OpenCV 3.x with Python By Example*.
 
 | Imagen original | Boceto | Caricatura |
 |------------------|---------|-------------|
-| ![original](imagenes/paisaje.jpg) | ![boceto](imagenes/boceto.jpg) | ![caricatura](imagenes/carat.jpg) |
+| ![original](imagenes/paisaje.jpg) | ![boceto](imagenes/boceto.png) | ![caricatura](imagenes/carat.png) |
 
 ---
 
