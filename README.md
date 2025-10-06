@@ -7,7 +7,7 @@ Basado en el **Capítulo 3** del libro *OpenCV 3.x with Python By Example*.
 ---
 
 ## Demo en línea
-👉 [Ver aplicación en Streamlit](https://tu-enlace-de-streamlit.app)  
+👉 [Ver aplicación en Streamlit](https://photofilter-ifykbedeqtcyhbqfwe5mop.streamlit.app)  
 *(reemplaza este enlace con el de tu app publicada en Streamlit Cloud)*
 
 ---
@@ -16,7 +16,7 @@ Basado en el **Capítulo 3** del libro *OpenCV 3.x with Python By Example*.
 
 | Imagen original | Boceto | Caricatura |
 |------------------|---------|-------------|
-| ![original](ruta/a/tu_imagen_original.jpg) | ![boceto](ruta/a/boceto.jpg) | ![caricatura](ruta/a/carat.jpg) |
+| ![original](imagenes/paisaje.jpg) | ![boceto](imagenes/boceto.jpg) | ![caricatura](imagenes/carat.jpg) |
 
 ---
 
