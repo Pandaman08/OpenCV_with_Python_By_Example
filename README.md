@@ -8,7 +8,6 @@ Basado en el **Capítulo 3** del libro *OpenCV 3.x with Python By Example*.
 
 ## Demo en línea
 👉 [Ver aplicación en Streamlit](https://photofilter-ifykbedeqtcyhbqfwe5mop.streamlit.app)  
-*(reemplaza este enlace con el de tu app publicada en Streamlit Cloud)*
 
 ---
 
