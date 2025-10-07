@@ -56,4 +56,4 @@ st.markdown("""
 📘 **Base teórica**: *OpenCV 3.x with Python By Example* (2da edición, 2018)
 """)
 
-st.markdown("[Ver código fuente en GitHub🤖](https://github.com/pandaman08/OpenCV_with_Python_By_Example)")
+st.markdown("[Ver código fuente en GitHub 🤖](https://github.com/pandaman08/OpenCV_with_Python_By_Example)")

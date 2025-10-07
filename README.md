@@ -13,18 +13,21 @@ Todas las aplicaciones están diseñadas para funcionar en **Streamlit Cloud**, 
 
 | N° | Aplicación | Capítulo | Descripción |
 |----|------------|----------|-------------|
-| 1 | 🎨 **Cartoonizador de Imágenes** | Capítulo 3 | Convierte fotos en caricaturas o bocetos a lápiz usando filtros de mediana, Laplacian y bilateral. |
-| 2 | 🔍 **Detección de Bordes** | Capítulo 2 | Aplica Sobel y Laplacian para detectar bordes en imágenes. |
-| 3 | 🌀 **Filtro Gaussiano** | Capítulo 2 | Suaviza imágenes con control del tamaño del kernel. |
-| 4 | 🎨 **Efecto Acuarela** | Capítulo 3 | Estiliza imágenes con `cv2.stylization`. |
-| 5 | ✨ **Filtro Viñeta** | Capítulo 2 | Crea un efecto de enfoque central con degradado suave. |
-| 6 | 📈 **Mejora de Contraste** | Capítulo 2 | Ecualiza el histograma en espacio YUV para mejorar el contraste. |
-| 7 | 📍 **Esquinas con Harris** | Capítulo 5 | Detecta esquinas usando el detector de Harris. |
-| 8 | ✂️ **Segmentación con GrabCut** | Capítulo 7 | Segmenta objetos mediante selección de región y algoritmo GrabCut. |
-| 9 | 🔄 **Transformaciones Geométricas** | Capítulo 1 | Aplica rotación, escalado y traslación a imágenes. |
-| 10 | 📐 **Detección de Contornos** | Capítulo 7 | Encuentra y dibuja contornos de formas en imágenes. |
-| 11 | 🧠 **Clasificador con Red Neuronal (ANN)** | Capítulo 11 | Usa HOG + ANN (MLP) para clasificar perros vs gatos. |
-.
+| 1 | 🔄 **Transformaciones Geométricas** | Capítulo 1 | Rotación, escalado y traslación de imágenes. |
+| 2 | 📈 **Mejora de Contraste** | Capítulo 2 | Ecualización de histograma en espacio de color YUV. |
+| 3 | 🎨 **Cartoonizador de Imágenes** | Capítulo 3 | Convierte fotos en caricaturas o bocetos a lápiz. |
+| 4 | 👤 **Detección de rostro** | Capítulo 4 | Detecta rostros en imágenes estáticas usando Haar Cascade. |
+| 5 | 📍 **Esquinas con Harris** | Capítulo 5 | Detección de esquinas en imágenes mediante el detector de Harris. |
+| 6 | ✂️ **Seam Carving** | Capítulo 6 | Reducción de tamaño de imagen sin distorsionar regiones importantes. |
+| 7 | 🖌️ **Segmentación con GrabCut** | Capítulo 7 | Segmentación interactiva de objetos mediante selección de región. |
+| 8 | 🎯 **Rastreo por color** | Capítulo 8 | Detección y visualización de objetos por rango de color (HSV). |
+| 9 | 🔗 **Emparejamiento de características con ORB** | Capítulo 9 | Emparejamiento de puntos clave entre dos imágenes usando ORB. |
+| 10 | 🕶️ **Detección de Marcador ArUco** | Capítulo 10 | Realidad Aumentada mediante detección de marcadores ArUco. |
+| 11 | 🧠 **Clasificador con ANN (Red Neuronal)** | Capítulo 11 | Clasificación de perros vs gatos usando HOG + Red Neuronal MLP. |
+
+> ✅ **Nota sobre el Capítulo 10**:  
+> Aunque el libro no menciona explícitamente **ArUco**, el Capítulo 10 trata sobre **Realidad Aumentada**, estimación de pose (`solvePnP`) y superposición de objetos virtuales.  
+> **ArUco es una implementación moderna, robusta y estándar** que aplica exactamente esos principios, por lo que se considera una extensión válida y práctica del contenido del capítulo.
 
 ---
 
@@ -32,4 +35,5 @@ Todas las aplicaciones están diseñadas para funcionar en **Streamlit Cloud**, 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Pandaman08/OpenCV_with_Python_By_Example.git
+   git clone https://github.com/tu-usuario/openCV-python-proyectos.git
+   cd openCV-python-proyectos
