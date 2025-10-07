@@ -179,7 +179,7 @@ if len(X) >= 6 and len(set(y)) == 2:
 
             st.image(cv2.cvtColor(img, cv2.COLOR_BGR2RGB), caption=caption, use_container_width=True)
             
-            col1, col2 = st.columns(3)
+            col1, col2 = st.columns(2)
             with col1:
                 st.markdown(
                     f"""
