@@ -3,3 +3,4 @@ opencv-python-headless
 opencv-contrib-python
 numpy
 Pillow
+scikit-learn
