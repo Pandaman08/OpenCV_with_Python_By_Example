@@ -179,13 +179,28 @@ if len(X) >= 6 and len(set(y)) == 2:
 
             st.image(cv2.cvtColor(img, cv2.COLOR_BGR2RGB), caption=caption, use_container_width=True)
             
-            col1, col2, col3 = st.columns(3)
+            col1, col2 = st.columns(3)
             with col1:
-                st.metric("🐶 Probabilidad Perro", f"{probas[0]:.2%}")
-            with col3:
-                st.metric("🐶 Probabilidad Perro", f"{probas[0]:.2%}")
+                st.markdown(
+                    f"""
+                    <div style="text-align: center;">
+                        <h3>🐶 Probabilidad Perro</h3>
+                        <h2 style="color:#1f77b4;">{probas[0]*100:.2f}%</h2>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+            
             with col2:
-                st.metric("🐱 Probabilidad Gato", f"{probas[1]:.2%}")
+                st.markdown(
+                    f"""
+                    <div style="text-align: center;">
+                        <h3>🐱 Probabilidad Gato</h3>
+                        <h2 style="color:#ff7f0e;">{probas[1]*100:.2f}%</h2>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
 else:
     st.error("❌ Necesitas al menos 3 imágenes válidas de **perro** y 3 de **gato**.")
