@@ -45,7 +45,7 @@ if uploaded_file is not None:
 
     col1, col2, col3 = st.columns([1, 2, 1])
 
-    with col2:  # Columna central más ancha
+    with col2: 
         sketch_btn = st.button("🖌️ Modo Boceto", use_container_width=True)
         cartoon_btn = st.button("🎨 Modo Caricatura", use_container_width=True)
 
