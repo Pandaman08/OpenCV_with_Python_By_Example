@@ -178,7 +178,12 @@ if len(X) >= 6 and len(set(y)) == 2:
                 caption = f"🔍 Predicción: {label} (confianza: {confidence:.2f})"
 
             st.image(cv2.cvtColor(img, cv2.COLOR_BGR2RGB), caption=caption, use_container_width=True
-            
+                     
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("🐶 Probabilidad Perro", f"{probas[0]:.2%}")
+            with col2:
+                st.metric("🐱 Probabilidad Gato", f"{probas[1]:.2%}")
 
 else:
     st.error("❌ Necesitas al menos 3 imágenes válidas de **perro** y 3 de **gato**.")
