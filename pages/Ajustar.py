@@ -58,6 +58,9 @@ if uploaded_file is not None:
     image = np.array(pil_image)
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
+    # Mostrar imagen original
+    st.subheader("Imagen original")
+    st.image(pil_image, caption="Imagen subida por el usuario", use_container_width=True)
     # Parámetros de salida
     st.sidebar.header("Configuración de salida")
     unit = st.sidebar.radio("Unidad de medida", ("cm", "mm"), index=0)
